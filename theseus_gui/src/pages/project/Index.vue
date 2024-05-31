@@ -172,7 +172,6 @@
       </Card>
     </div>
     <div v-if="data" class="content-container">
-      <Promotion :external="false" query-param="?r=launcher" />
       <Card class="tabs">
         <NavRow
           v-if="data.gallery.length > 0"
@@ -242,7 +241,6 @@ import {
   CalendarIcon,
   IssuesIcon,
   WikiIcon,
-  Promotion,
   NavRow,
   CoinsIcon,
   CodeIcon,
